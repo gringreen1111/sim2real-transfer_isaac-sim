@@ -1,8 +1,10 @@
 # Sim-to-Real Transfer for Weld Bead Segmentation
 
 NVIDIA Isaac Sim으로 생성한 용접 비드 합성데이터로 U-Net segmentation 모델을 학습하고, 실데이터 대비 sim-to-real 전이 성능을 검증한 실험 코드입니다.
-<img width="1280" height="720" alt="frame_0014" src="https://github.com/user-attachments/assets/9265151a-d38e-414c-83b2-41b4fc6b3106" />
-<img width="1280" height="720" alt="rgb_00282" src="https://github.com/user-attachments/assets/2216af02-1118-4312-bbe5-fdcb025622d9" />
+
+synth & real ex)
+<img width="128" height="72" alt="frame_0014" src="https://github.com/user-attachments/assets/9265151a-d38e-414c-83b2-41b4fc6b3106" />
+<img width="128" height="72" alt="rgb_00282" src="https://github.com/user-attachments/assets/2216af02-1118-4312-bbe5-fdcb025622d9" />
 
 **ResNet34 / MiT-B2** 두 backbone에 대해 **synth-only / real-only / synth+real(2단계 파인튜닝)** 세 가지 학습 방식을 적용해 총 6개 모델을 비교했습니다.
 
